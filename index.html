@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temp Calculator || Karan Kumar</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="icon" type="icon.ico" href="./images/temperature_icon-icons.com_53617.svg" sizes="32x32" />
+
+  </head>
+  <body>
+    <div class="main_body">
+      <form action="#">
+        <label for="input_temp"
+          >Enter Temperature<i class="bi bi-thermometer"></i
+        ></label>
+        <input
+          type="number"
+          name="tempInCelsius"
+          id="input_temp"
+          placeholder="Celsius(°C) & Fahrenheit(°F)"
+        />
+        <div class="buttons">
+          <h2 class="buttons_heading">You have Entered Temperature in?</h2>
+          <div class="button_center">
+            <button class="celsius_button" onclick="Celsius();return false">
+              Celsius(°C)
+            </button>
+            <button class="fahrenheit_button" onclick="Fahrenheit();return false">
+              Fahrenheit(°F)
+            </button>
+          </div>
+        </div>
+        <div class="Output">
+          <div id="answer"></div>
+          <div id="message"></div>
+        </div>
+      </form>
+
+      <script src="./js/script.js"></script>
+    </div>
+  </body>
+</html>
