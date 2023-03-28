@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .main_body::before{
-    background: url('../images/background.jpg')no-repeat center center/cover;
+    background: url('../images/Bg.jpg')no-repeat center center/cover;
     position: absolute;
     content: "";
     width: 100%;
@@ -113,6 +113,10 @@ footer{
   box-sizing: border-box;
   text-align: center;
   margin: 0;
+}
+footer a{
+  text-decoration: none;
+  color: white;
 }
 @media (max-width:570px) {
   form>input{
