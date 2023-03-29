@@ -152,6 +152,7 @@ footer a{
   #message{
     font-weight: bold;
     font-size: 1.15em;
+    text-align: center;
   }
 }
 @media (max-width:427px) {
@@ -171,5 +172,6 @@ footer a{
   #message{
     font-weight: bold;
     font-size: 1em;
+    text-align: center;
   }
 }
