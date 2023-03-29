@@ -121,7 +121,12 @@ footer a{
 @media (max-width:570px) {
   form>input{
     width: 10em;
-   
+      padding: 2px;
+      font-size: 1.3em;
+  }
+  ::placeholder{
+    font-size: .7em;
+    color: red;
   } 
   .celsius_button{
     background-color: red;
